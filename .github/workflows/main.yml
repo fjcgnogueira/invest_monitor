@@ -3,7 +3,7 @@ name: Monitor de Investimentos Diário
 on:
   schedule:
     # 12:00 UTC é 09:00 no horário de Brasília
-    - cron: '0 18 * * *'
+    - cron: '0 12 * * *'
   workflow_dispatch: # Permite rodar manualmente pela aba Actions
 
 jobs:
